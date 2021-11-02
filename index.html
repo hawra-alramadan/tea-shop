@@ -7,13 +7,16 @@
 
     <!------links------>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>tea shop</title>
 </head>
 <body>  
-            <!------navgiton------>
-    <header class="top-navbar" id="Topnav">
+            <!------head------>
+    <header>
+        <div class="head">
+        <div class="top-navbar" id="Topnav">
             <a class="nav-brand" href=""> tea shop</a>
             <ul class="navbar-nav">
                 <li class="navbar-item">
@@ -35,16 +38,17 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>
+            </div>  
+                <div class="head-title">
+                    <h1>tea shop</h1>
+                    <p></p>
+                <a href=""></a>
+                </div>
+            </div>
+        </div>   
+    </div>
     </header>
-        <!------end navgiton------>
-    <main>
-         <!------home page------>
-        <div class="head">
-            <h1>tea shop</h1>
-            <p></p>
-            <a href=""></a>
-        </div>
-        <!------end home page------>
+        <!------ end head------>
         <div>
             <h2></h2>
             <p></p>
@@ -66,20 +70,8 @@
             <a href=""></a>
         </div>
         <div class="Contact"></div>
-    </main>
     <footer>
         <p class="author">&copy;<a href="https://github.com/hawra-alramadan"> Hawra AL Ramadan </a>2021.</p>
     </footer>
-
-    <script>
-        function myFunction() {
-          var x = document.getElementById("top-navbar");
-          if (x.className === "top-navbar") {
-            x.className += " responsive";
-          } else {
-            x.className = "top-navbar";
-          }
-        }
-        </script>
 </body>
 </html>
