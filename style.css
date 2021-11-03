@@ -43,7 +43,7 @@ font-size: 20px;
 .navbar-item{
     display: inline-block;
     margin: 0 5px;
-
+    
 }
 
 .navbar-item .nav-link {
@@ -57,10 +57,11 @@ font-size: 20px;
 
 .navbar-item .nav-link:hover{
 
+
 }
 
-.top-navbar .icon{
-    display: none;
+.toggle {
+  display: none;
 }
 
 .head{

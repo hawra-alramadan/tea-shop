@@ -1,0 +1,34 @@
+@media screen and (max-width: 700px) {
+ 
+
+    .top-navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+    }
+    .nav-brand {
+        flex: 1;
+    }
+    .navbar-item{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .active .navbar-item{
+        display: block;
+    }
+
+    .top-navbar .navbar-item .nav-link{
+        display: block;
+    }
+   
+    .toggle{
+        font-size: 20px;
+        display: block;
+    }
+  }
