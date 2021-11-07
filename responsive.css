@@ -1,6 +1,6 @@
 @media screen and (max-width: 700px) {
  
-
+    
     .top-navbar {
         display: flex;
         flex-wrap: wrap;
@@ -8,9 +8,15 @@
         align-items: center;
         text-align: center;
         background-color: white;
+        overflow: hidden;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+
     }
-    .nav-brand {
-        flex: 1;
+    .nav-brand .active{
+        display: none;
+        
     }
     .navbar-item{
         padding: 10px;
@@ -24,7 +30,10 @@
     }
 
     .top-navbar .navbar-item .nav-link{
-        display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
     }
    
     .toggle{

@@ -23,7 +23,7 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 40px ;
+    padding: 20px 60px ;
     color: black;
 }
 
@@ -33,6 +33,7 @@ margin-right: auto;
 text-transform: uppercase;
 font-weight: 600;
 font-size: 20px;
+padding-top: 10px;
 }
 
 .navbar-nav{
@@ -51,9 +52,11 @@ font-size: 20px;
     text-transform: capitalize;
     transition: all 0.3s ease 0s;
     font-size: 20px;
-   
+    
     
 }
+
+
 
 .navbar-item .nav-link:hover{
 
