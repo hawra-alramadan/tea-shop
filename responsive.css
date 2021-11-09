@@ -14,10 +14,17 @@
         z-index: 1;
 
     }
-    .nav-brand .active{
-        display: none;
+     .nav-brand {
+        text-align: center;
+        margin: 0 auto;
+        display:inline-block;
+        color: black;
         
     }
+    .active .nav-brand{
+        display: none;
+    }
+    
     .navbar-item{
         padding: 10px;
         text-align: center;
@@ -26,18 +33,29 @@
     }
 
     .active .navbar-item{
-        display: block;
+        display:inline-block;
     }
 
     .top-navbar .navbar-item .nav-link{
+        color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
     }
-   
+
+    .navbar-item .nav-link:hover{
+        color: rgb(182, 182, 182);
+        border: black solid 1px;
+        }
+
     .toggle{
         font-size: 20px;
         display: block;
+    }
+
+    .head-title h1{
+        font-size: 40px;
+        letter-spacing: 4px;
     }
   }
