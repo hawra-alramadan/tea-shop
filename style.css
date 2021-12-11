@@ -40,7 +40,7 @@ text-transform: uppercase;
 font-weight: 600;
 font-size: 24px;
 padding-top: 10px;
-color: rgb(244, 255, 182);
+color: rgb(248, 255, 210);
 }
 
 .navbar-nav{
@@ -110,7 +110,7 @@ color: rgb(182, 182, 182);
 .head-title .btn{
     display: inline-block;
     padding: 14px 20px;
-    background-color: rgb(244, 255, 182);
+    background-color: rgb(248, 255, 210);
     border-radius: 100px;
     color: black;
 }
@@ -126,7 +126,7 @@ color: rgb(182, 182, 182);
 }
 
 .about {
-    background-color: rgb(244, 255, 182);
+    background-color: rgb(248, 255, 210);
     min-height: 300px;
     display:flex;
     justify-content:center;
@@ -137,21 +137,21 @@ color: rgb(182, 182, 182);
   max-width: 900px;
 }
 
-.about .container .text h2{
- padding: 0 30px 30px;
-}
 
-.about .container .text p{
-    align-items:center;
+.section-title{
+    text-transform: capitalize;
 }
 
 .section-title h2{
+    font-size: 35px;
+    font-weight: 500;
     padding: 0 40px 40px;
-  text-align: center;  
+    text-align: center;  
 }
 .container{
     padding: 30px;
     margin: 50px;
+    text-align: center;
 }
 
 .shop-container{
@@ -162,17 +162,20 @@ color: rgb(182, 182, 182);
 }
 
 .shop .container .box{
-    width: 230px;
+    width: 250px;
     text-align: center;  
     margin: 15px;
 }
 
 .shop .container .box h3{
     padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
    
 }
 
 .shop .container .box p{
+    font-size: 14px;
     padding-top: 15px;
     color: rgb(114, 114, 114);
 }
@@ -180,5 +183,69 @@ color: rgb(182, 182, 182);
 .img-box img{
     width: 150px;
     border-radius: 100%;
-    background-color: rgb(244, 255, 182);
+    background-color: rgb(248, 255, 210);
 }
+
+.blog{
+background-color: rgb(253, 253, 253);
+padding: 2rem;
+}
+
+.container-blog{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 6rem;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #f8ffd1);
+  
+  }
+  
+  
+  
+  .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  .card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+  .card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+  .user {
+    display: flex;
+    gap: .5rem;
+  }
+  
+  .user__image {
+    border-radius: 50%;
+  }
+  
+  .user__info > small {
+    color: #666;
+  }
