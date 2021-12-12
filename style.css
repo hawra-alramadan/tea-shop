@@ -116,7 +116,8 @@ color: rgb(182, 182, 182);
 }
 
 .head-title .btn:hover{
-    
+    opacity: 0.9;
+    color: rgb(107, 107, 107);
     transition: all 0.3s ease 0s;
 }
 
@@ -248,4 +249,59 @@ padding: 2rem;
   
   .user__info > small {
     color: #666;
+  }
+
+  .Contact-container{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.Contact .container .box{
+    width: 250px;
+    text-align: center;  
+    margin: 15px;
+}
+
+.Contact .container .box h3{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(37, 37, 37);
+   
+}
+
+.Contact .container .box p{
+    font-size: 14px;
+    padding-top: 15px;
+    color: rgb(114, 114, 114);
+}
+
+footer{
+    
+    text-align: center;
+    height: 50px;
+    padding: 30px 0;
+ }
+ .curved {
+    position: relative;
+    background: rgb(248, 255, 210);
+    height: 15vh;
+    border-top-left-radius: 50% 30%;
+    border-top-right-radius: 50% 30%;
+  }
+ .author a{
+     top: 50%;
+ font-size: 13px;
+  font-weight:900;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);;
+  }
+
+  .author a:hover{
+      color: rgb(114, 114, 114);
   }
